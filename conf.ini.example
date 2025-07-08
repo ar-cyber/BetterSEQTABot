@@ -4,7 +4,7 @@
 [setup]
 token = <your token here>
 command_prefix = !
-guild = 
+guild = <your guild id>
 
 [modmail]
 allowed_roles = <seperate with colons>
