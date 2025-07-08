@@ -13,3 +13,10 @@ channel = <seperate with ,>
 
 [suggest]
 channel = <seperate with ,>
+
+[github]
+themerole = <role for theme submissions>
+token = <github app token or PAT>
+repo = <theme repo>
+issuerepo = <repo to make prs>
+forumid = <forumid>
