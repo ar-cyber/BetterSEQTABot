@@ -24,7 +24,7 @@ class Modmail(Cog):
                 else:
                     pass
             # Deny everyone from seeing the channel
-            guild = self.client.get_guild(1319398756726345788)
+            guild = self.client.get_guild(int(config['setup']['guild']))
             print(guild.roles)
             overwrites = {
                 guild.default_role: discord.PermissionOverwrite(view_channel=False),
